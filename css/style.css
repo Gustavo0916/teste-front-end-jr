@@ -1,0 +1,1201 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bodoni+Moda:opsz@6..96&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;   
+}
+
+#container-principal {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/********** inicio container-topo **********/
+
+#container-topo {
+    height: 32px;
+    width: 1280px;
+    position: absolute;
+    top: 0%;
+    bottom: 77.78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 13%;
+    text-align: center;
+}
+
+.compras {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.shieldCheck {
+    height: 20px;
+    width: 20px;
+    left: 262px;
+    top: 6px;
+    border-radius: 0px;
+}
+ 
+.descricao p {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.descricao span {
+    color: #F71963;
+}
+
+.frete {
+    width: 205px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.parcela {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.parcela p {
+    padding-bottom: 4px;
+}
+
+.line {
+    width: 1280px;
+    margin-top: 32px;
+    background: #F0F0F0;
+    border: 1px solid #F0F0F0  
+}
+
+/********** fim container-topo **********/
+
+/********** inicio container pesquisa **********/
+
+#container-pesquisa {
+    height: 72px;
+    width: 1280px;
+    left: 0px;
+    top: 32px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    margin-left: 56px;
+}
+
+.pesquisa {
+    height: 48px;
+    width: 657px;
+    background: #F6F5F2;
+    margin-left: 95px;
+    border-radius: 10px;
+}
+
+.pesquisa-2 input {
+    height: 21px;
+    width: 197px;
+    margin: 14px 436px 13px 24px;
+    border: none;   
+}
+
+.pesquisa-2 img {
+    height: 28px;
+    width: 28px;
+    margin-left: 613px;
+}
+
+.icones {
+    width: 240px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 61px;
+    gap: 35px;
+}
+
+/********** fim container pesquisa **********/
+
+/********** inicio container header **********/
+
+#container-header {
+    height: 40px;
+    width: 1280px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navegacao {
+    margin-left: 56px;
+    display: flex;
+    gap: 100px;
+}
+
+.navegacao a {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9F9F9F;
+    gap: 95px;
+    text-transform: uppercase;
+}
+
+/********** fim container header **********/
+
+/********** inicio container logo fundo **********/
+
+#container-logo-fundo {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url(../imagens/Rectangle\ 250.png);
+    position: absolute;
+    width: 1443px;
+    height: 395px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 0px;
+    margin-top: 11px;
+}
+
+.paragrafo {
+    width: 822px;
+    height: 128px;
+    margin-left: 92px;
+    margin-top: 52px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.paragrafo-1 {
+    height: 54px;
+    width: 389px;
+    margin-left: 92px;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn button {
+    height: 60px;
+    width: 227px;
+    border-radius: 5px;
+    margin-left: 92px;
+    margin-top: 35px;
+    padding-left: 55px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #F71963;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn button:hover {
+    color: #F71963;
+    background: transparent;
+    border: 1px solid #F71963;
+    transition: all 0.8s;
+}
+
+/********** fim container logo fundo **********/
+
+/********** inicio contairner-items **********/
+
+#container-items {
+    width: 100%;
+    height: auto;
+    margin-top: 425px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box-item {
+    height: 128px;
+    width: 128px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 9px 0px #00000038;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 86px;
+    display: flex;
+    
+}
+
+.box-item-1 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.box-item-2 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.box-item-3 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.box-item-4 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.box-item-5 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.box-item-6 {
+    height: 128px;
+    width: 128px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px 0px #00000021;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.descricao-items {
+    display: flex;
+    align-items: center;
+}
+
+.img-item {
+    height: 61px;
+    width: 61px;
+    padding: 34px 34px 33px 33px;
+}
+
+.descricao-items {
+    margin-left: 105px;
+    margin-top: 22px;
+}
+
+.tecnologia {
+    height: 24px;
+    width: 90px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F71963;
+}
+
+.supermercado {
+    height: 24px;
+    width: 122px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E4E4E;
+    margin-left: 63px;
+}
+
+.bebida {
+    height: 24px;
+    width: 140px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E4E4E;
+    margin-left: 40px;
+}
+
+.ferramenta {
+    height: 24px;
+    width: 107px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E4E4E;
+    margin-left: 42px;
+}
+
+.saude {
+    height: 24px;
+    width: 164px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E4E4E;
+    margin-left: 35px;
+}
+
+.esporte {
+    height: 24px;
+    width: 143px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E4E4E;
+    margin-left: 13px;
+}
+
+.moda {
+    height: 24px;
+    width: 46px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E4E4E;
+    margin-left: 74px;
+}
+
+/********** fim contairner-items **********/
+
+/********** inicio box-line **********/
+
+.box-line {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 39px;
+    margin-left: -70px;
+}
+
+.line-27 {
+    height: 0px;
+    width: 250px;
+    background: #DEDEDE;
+    border: 1px solid #DEDEDE;
+    margin-left: 50px;
+}
+
+.titulo-produtos {
+    height: 45px;
+    width: 350px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F71963;
+    margin-left: -15px;
+}
+
+.line-26 {
+    height: 0px;
+    width: 250px;
+    background: #DEDEDE;
+    border: 1px solid #DEDEDE;
+    margin-right: 110px;
+}
+
+/********** fim box-line **********/
+
+/********** inicio container-descricao-produto **********/
+
+#container-descricao-produto {
+    width: 1136px;
+    height: 40px;
+    margin-left: 85px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navegacao-produto {
+    height: 40px;
+    width: 211.5px;
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+}
+
+.celular {
+    height: 16px;
+    width: 70px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F71963;
+    padding: 12px 70.75px 12px 62.75px;
+    text-transform: uppercase;
+}
+
+.acessorios {
+    height: 16px;
+    width: 99px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 12px 56.25px 12px 45.25px;
+    text-transform: uppercase;
+}
+
+.tablet {
+    height: 16px;
+    width: 63px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 12px 74.75px 12px 60.75px;
+    text-transform: uppercase;
+}
+
+.notebook {
+    height: 16px;
+    width: 95px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 12px 58.25px 12px 48.25px;
+    text-transform: uppercase;
+}
+
+.tv {
+    height: 16px;
+    width: 29px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 12px 91.25px 12px 79.25px;
+    text-transform: uppercase;
+}
+
+.verTodos {
+    height: 16px;
+    width: 95px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B3B3B;
+    margin-top: 12px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+/********** fim container-descricao-produto **********/
+
+/********** inicio container-venda-celular **********/
+
+#container-venda-celular {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box-seta-left {
+    width: 70px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-conteudo-celular {
+    width: 1136px;
+    height: 500px;
+    margin-left: 14.5px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 17px;
+}
+
+.box-principal-celular {
+    width: 270px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 19px 0px #00000038;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+.img-celular {
+    height: 228px;
+    width: 247px;
+    margin: 32px 12px 0px 11px;
+}
+
+.paragrafo-descricao-celular {
+    height: 46px;
+    width: 245px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F3F40;
+    padding-left: 11px;
+}
+
+.preco-1 {
+    height: 24px;
+    width: 70px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+    text-decoration-line: line-through;
+    margin: 12px 0 0 11px;
+}
+
+.preco-2 {
+    height: 30px;
+    width: 90px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F3F40;
+    margin: 2px 0 0 11px;
+}
+
+.parcelas-celular {
+    height: 18px;
+    width: 170px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F3F40;
+    margin: 2px 0 0 11px;
+}
+
+.frete-celular {
+    height: 18px;
+    width: 70px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F71963;
+    margin: 7px 0 0 11px;
+}
+
+.box-btn {
+    height: 44px;
+    width: 245px;
+    border-radius: 4px;
+    background: #F71963;
+    margin: 12px 0 0 11px;
+    cursor: pointer;
+}
+
+.btn-compra {
+    height: 18.479999542236328px;
+    width: 113.80644989013672px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 12.08px 64.81px 11.44px 88.39px;
+}
+
+.box-seta-right {
+    width: 42px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/********** fim container-venda-celular **********/
+
+/********** inicio container-parcerias **********/
+
+#container-parcerias {
+    width: 100%;
+    height: 500px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: -130px;
+}
+
+/************************************************************************************************/
+
+.parceria {
+    height: 350px;
+    width: 574px;
+    background: url(../imagens/Group\ 1166.png);
+    margin-left: 47px;
+}
+
+.verTodos-2 {
+    height: 23px;
+    width: 74px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3F3F40;
+    margin: 4px 683px 32px 601px;
+}
+
+/********** fim container-parcerias **********/
+
+.navegue-por-marcas {
+    height: 45px;
+    width: 485px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F71963;
+    margin: 155px 551px 60px 400px;
+    text-align: center;
+}
+
+/********** inicio container-marca **********/
+
+#container-marca {
+    width: 100%;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 104px;
+    text-align: center;
+}
+
+.marca {
+    height: 211px;
+    width: 211px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 7px 20px 0px #00000021;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+    margin-left: 30px;
+}
+
+.marca img {
+    height: 62px;
+    width: 172px;
+    margin: 74px 20px 74.34px 19px;
+}
+
+/********** fim container-marca **********/
+
+/********** inicio container-produtos **********/
+
+#container-produtos {
+    width: 100%;
+    height: 500px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.produto {
+    height: 284px;
+    width: 589.7260131835938px;
+    background: linear-gradient(180deg, rgba(60, 60, 60, 0) 0%, #000000 104.04%), url(../imagens/image\ 101.png);
+    mix-blend-mode: normal;
+    opacity: 15;
+    border-radius: 10px;
+    margin-left: 39px;
+}
+
+.produtos-loja {
+    height: 60px;
+    width: 201.36985778808594px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 48px 0 0 39px;
+}
+
+.descricao-produto {
+    height: 48px;
+    width: 185.9589080810547px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 9px 0 0 39px;
+}
+
+.btn-produto {
+    height: 48px;
+    width: 134.5890350341797px;
+    background: #F71963;
+    border-radius: 10px;
+    margin: 32px 0 0 39px;
+}
+
+.btn-produto button {
+    height: 24px;
+    width: 85.27397155761719px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 11.5px 2px 0 2px;
+    text-transform: uppercase;
+}
+
+/********** fim container-produtos **********/
+
+/********** inicio footer **********/
+
+#container-footer {
+    height: 325px;
+    width: 1442px;
+    background: #2A2A2A;
+    margin-top: 169px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+
+.box-footer-1 {
+    width: auto;
+    height: auto;
+  
+    margin-left: 96px;
+}
+
+.sobreNos {
+    height: 20px;
+    width: 70px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.sobreNos-2 {
+    height: 128px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a2a2a2;
+    text-transform: uppercase;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.redeSocial {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/****/
+
+.box-footer-2 {
+    width: auto;
+    height: auto;
+    margin-left: 93px;
+}
+
+.informacoes {
+    height: 20px;
+    width: 135px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.informacoes-2 {
+    height: 192px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+/****/
+
+.box-footer-3 {
+    height: 192.5453338623047px;
+    width: 195px;
+    margin-left: 47px;
+}
+
+.pagamento-footer {
+    height: 20px;
+    width: 162px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.cartao-1 {
+    margin-top: 29px;
+    margin-right: 32.5px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-2 {
+    margin-right: 32.5px;
+    margin-top: 26px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-3 {
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.cartao-4 {
+    margin-right: 39.5px;
+    margin-top: 19px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-5 {
+    margin-right: 38px;
+    margin-top: 19px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-6 {
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.cartao-7 {
+    margin-right: 28px;
+    margin-top: 19px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-8 {
+    margin-right: 48px;
+    margin-top: 13px;
+    float: left;
+    cursor: pointer;
+}
+
+.cartao-9 {
+    margin-top: 13.5px;
+    cursor: pointer;
+}
+
+.cartao-10 {
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+/****/
+
+.box-cadastro {
+    height: 260px;
+    width: 380px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+
+.cadastro {
+    height: 51px;
+    width: 300px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F3F40;
+    text-transform: uppercase;
+    margin: 40px 70px 15px 29px;
+}
+
+.cadastro span {
+    height: 51px;
+    width: 281px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 9px;
+    color: #000;
+}
+
+.descricao-cadastro {
+    height: 38px;
+    width: 310px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #3F3F40;
+    margin: 15px 34px 31px 40px;
+}
+
+.box-e-mail {
+    width: 345px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.box-e-mail-footer {
+    height: 45px;
+    width: 230px;
+    border: 1px solid #2A2A2A;
+    border-radius: 4px;
+    margin: 31px 0 40px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box-e-mail-footer input {
+    height: 20px;
+    width: 70px;
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 13px 141px 12px 25px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-ok {
+    height: 45px;
+    width: 62px;
+    background: #F71963;
+    border-radius: 4px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+
+.btn-ok button {
+    height: 20px;
+    width: 21px;
+    background: transparent;
+    border: none;
+    padding: 15px 10px 13px 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/****/
+
+#sub-container-footer {
+    height: 70px;
+    width: 1442px;
+    background: #2A2A2A;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.copy {
+    height: 26px;
+    width: 698px;
+    margin-left: 93px;
+}
+
+.copy p {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.box-grupo {
+    width: 300px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.logo-empresa {
+    margin-left: 55px;
+}
+
+.logo-marca {
+    margin-left: 32px;
+}
+
+/********** fim footer **********/
+
+
+
+
+
